@@ -17,6 +17,15 @@ namespace ConsoleApp1
                 Console.WriteLine("Wartość zmiennej i: " + i);
             }
 
+
+            // Przykładowa pętla while
+            int j = 0;
+            while (j < 5)
+            {
+                Console.WriteLine("Wartość zmiennej j: " + j);
+                j++;
+            }
+
         }
     }
 }
