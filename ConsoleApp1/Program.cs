@@ -26,6 +26,16 @@ namespace ConsoleApp1
                 j++;
             }
 
+
+
+            // Przykładowa pętla do-while
+            int k = 0;
+            do
+            {
+                Console.WriteLine("Wartość zmiennej k: " + k);
+                k++;
+            } while (k < 5);
+
         }
     }
 }
