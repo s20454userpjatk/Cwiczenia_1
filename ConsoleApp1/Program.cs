@@ -52,13 +52,13 @@ namespace ConsoleApp1
                 throw new ArgumentException("Tablica nie może być pusta.");
             }
 
-            int sum = 0;
+            int suma = 0;
             foreach (int number in array)
             {
-                sum += number;
+                suma += number;
             }
 
-            return (double)sum / array.Length;
+            return (double)suma / array.Length;
         }
 
 
