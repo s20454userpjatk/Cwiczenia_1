@@ -36,31 +36,6 @@ namespace ConsoleApp1
                 k++;
             } while (k < 5);
 
-
-
-            int[] numbers = { 5, 10, 15, 20, 25 };
-            double average = CalculateAverage(numbers);
-            Console.WriteLine("Średnia liczb w tablicy: " + average);
-
-
         }
-
-        static double CalculateAverage(int[] array)
-        {
-            if (array == null || array.Length == 0)
-            {
-                throw new ArgumentException("Tablica nie może być pusta.");
-            }
-
-            int sum = 0;
-            foreach (int number in array)
-            {
-                sum += number;
-            }
-
-            return (double)sum / array.Length;
-        }
-
-
     }
 }
