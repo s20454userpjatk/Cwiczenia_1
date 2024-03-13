@@ -10,6 +10,13 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
+
+            // Przykładowa pętla for
+            for (int i = 0; i < 5; i++)
+            {
+                Console.WriteLine("Wartość zmiennej i: " + i);
+            }
+
         }
     }
 }
